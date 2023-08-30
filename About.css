@@ -1,0 +1,70 @@
+/* Your existing styles */
+
+.content {
+  padding: 20px;
+}
+
+.about-section {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  padding: 50px 0;
+}
+
+.about-content {
+  flex: 1;
+  padding: 0 30px;
+  max-width: 600px;
+}
+
+.about-content h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.subheading {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  color: #777;
+  line-height: 1.6;
+}
+
+.about-section img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.values-section h2 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.values {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.value {
+  flex: 1;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  margin: 0 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.value p {
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Other styles as needed */

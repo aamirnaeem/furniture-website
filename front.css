@@ -1,0 +1,73 @@
+/* Your existing styles */
+
+.content {
+  padding: 20px;
+}
+
+.hero {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  color: #777;
+  line-height: 1.6;
+}
+
+.websites-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.website {
+  flex: 0 0 calc(33.33% - 20px);
+  padding: 20px;
+  border-radius: 20px; /* Rounded corners */
+  background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.website:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.website img {
+  max-width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.website h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.website p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 10px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+/* Other styles as needed */

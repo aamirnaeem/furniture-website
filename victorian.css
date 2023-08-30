@@ -1,0 +1,42 @@
+/* Reset some default styles */
+body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color:transparent;
+  padding: 20px;
+  
+}
+
+.furniture-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.furniture-item {
+  border: 1px solid white;
+  padding: 20px;
+  text-align: center;
+}
+
+.furniture-item img {
+  align-items: center;
+  border: 1px solid white;
+  border-radius: 50px;
+  width: 50%;
+  height: 50%;
+}
+
+footer {
+  background-color: #f4f4f4;
+  padding: 10px;
+  text-align: center;
+}
